@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Egona</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/dad41bef55.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="public/styles.css" />
+  </head>
+  <body>
+    <!--  banner-->
+    <div class="banner">
+      <div class="flex">
+        <p class="text-white w-4/5 mx-auto text-center py-3">
+          Bountiful Harvest! Reap Savings: Up to 50% off Local Produce & FREE
+          Delivery 🇳🇬
+        </p>
+      </div>
+    </div>
+    <div class="gbl-container">
+      <div class="w-0.5 text-white_smoke relative"></div>
+      <!--      Header section-->
+      <div class="sticky top-0 z-50 bg-white">
+        <header class="flex justify-between items-center mt-4">
+          <a href="index.html">
+            <img class="w-8" src="images/logo.svg" alt="" />
+          </a>
+          <nav class="flex gap-10 ml-32">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">About</a>
+            <a href="signup.html">Sign up</a>
+          </nav>
+
+          <div class="flex gap-8 items-center justify-center">
+            <div
+              class="flex items-center gap-8 py-1.5 px-4 m-1.5 bg-white_smoke rounded-md"
+            >
+              <input
+                class="opacity-80 outline-none bg-white_smoke w-full"
+                type="search"
+                placeholder="What are you looking for?"
+              />
+              <button>
+                <i class="fa-brands fa-searchengin"></i>
+              </button>
+            </div>
+            <div
+              class="absolute text-center text-white_smoke text-xs top-2 right-2 bg-dark_pastel_green w-4 h-4 rounded-full"
+            >
+              2
+            </div>
+            <a class="inline-block" href="cart.html">
+              <i
+                class="fa-solid fa-cart-shopping color text-pakistan_green"
+              ></i>
+            </a>
+          </div>
+        </header>
+        <div class="h-0.5 w-full bg-white_smoke mt-4"></div>
+      </div>
+      <div class="sign-container">
+        <div class="sign-card">
+          <div class="">
+            <img
+              class="md:h-500"
+              src="images/Side Image-login.png"
+              alt="image"
+            />
+          </div>
+          <div class="flex contents-center items-center">
+            <form action="get">
+              <h1 class="font-inter text-[25px] font-body pb-1">
+                New Password
+              </h1>
+              <p class="text-[16px] font-body pb-2">
+                Enter and Confirm new password
+              </p>
+
+              <div class="mb-5">
+                <input
+                  class="p-2 w-64 border-b-2 border-gray-700 outline-none"
+                  type="text"
+                  placeholder="New Password"
+                  required
+                />
+              </div>
+
+              <div class="mb-5">
+                <input
+                  class="p-2 w-64 border-b-2 border-gray-700 outline-none"
+                  type="text"
+                  placeholder="Confirm Password"
+                  required
+                />
+              </div>
+
+              <div class="flex flex-col">
+                <button
+                  class="w-24 mb-2 px-5 py-1.5 bg-green-600 align-middle rounded-md text-white"
+                >
+                  Create
+                </button>
+                <div>Password reset successfully</div>
+                <a class="text-green-600" href="login.html">login here</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer"></footer>
+    <script src="createFooter.js"></script>
+  </body>
+</html>
